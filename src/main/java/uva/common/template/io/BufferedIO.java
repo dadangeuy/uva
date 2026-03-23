@@ -20,7 +20,7 @@ final class BufferedIO {
 
     public String[] readLines(final String separator) throws IOException {
         final String line = readLine();
-        return line.split(separator);
+        return line == null? null : line.split(separator);
     }
 
     public String readLine() throws IOException {
