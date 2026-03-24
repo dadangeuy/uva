@@ -89,37 +89,40 @@ class Process {
 
     public Output process(final Input input) {
         final Output output = new Output();
-
-        final Memoization memoization = new Memoization(input.totalDrawers);
-        output.totalWays = getTotalWays(memoization, input, UNLOCKED, 0, 0);
-
+        final Memoization memoization = new Memoization(input);
+        output.totalWays = getTotalWays(memoization, UNLOCKED, input.totalDrawers, input.totalSecuredDrawers);
         return output;
     }
 
     private long getTotalWays(
         final Memoization memoization,
-        final Input input,
         final int lastDrawer,
-        final int height,
-        final int totalSecured
+        final int remainingHeight,
+        final int remainingTotalSecuredDrawers
     ) {
-        if (memoization.contains(lastDrawer, height, totalSecured)) {
-            return memoization.get(lastDrawer, height, totalSecured);
+        final boolean invalid = remainingHeight < 0 || remainingTotalSecuredDrawers < 0;
+        if (invalid) {
+            return 0;
         }
 
-        if (height == input.totalDrawers) {
+        final boolean topmost = remainingHeight == 0;
+        if (topmost) {
             final boolean secured = lastDrawer == LOCKED;
-            final boolean valid = input.totalSecuredDrawers == totalSecured + (secured ? 1 : 0);
-            final long totalWays = valid ? 1 : 0;
-            return memoization.set(lastDrawer, height, totalSecured, totalWays);
+            final boolean valid = 0 == remainingTotalSecuredDrawers - (secured ? 1 : 0);
+            return valid ? 1 : 0;
+        }
+
+        final boolean computed = memoization.contains(lastDrawer, remainingHeight, remainingTotalSecuredDrawers);
+        if (computed) {
+            return memoization.get(lastDrawer, remainingHeight, remainingTotalSecuredDrawers);
         }
 
         long totalWays = 0;
-        totalWays += getTotalWays(memoization, input, UNLOCKED, height + 1, totalSecured);
+        totalWays += getTotalWays(memoization, UNLOCKED, remainingHeight - 1, remainingTotalSecuredDrawers);
         final boolean secured = lastDrawer == LOCKED;
-        totalWays += getTotalWays(memoization, input, LOCKED, height + 1, totalSecured + (secured ? 1 : 0));
+        totalWays += getTotalWays(memoization, LOCKED, remainingHeight - 1, remainingTotalSecuredDrawers - (secured ? 1 : 0));
 
-        return memoization.set(lastDrawer, height, totalSecured, totalWays);
+        return memoization.set(lastDrawer, remainingHeight, remainingTotalSecuredDrawers, totalWays);
     }
 }
 
@@ -127,21 +130,34 @@ class Memoization {
     private final long[][][] totalWays;
     private final boolean[][][] exists;
 
-    public Memoization(final int totalDrawers) {
-        this.totalWays = new long[2][totalDrawers + 1][totalDrawers + 1];
-        this.exists = new boolean[2][totalDrawers + 1][totalDrawers + 1];
+    public Memoization(final Input input) {
+        totalWays = new long[2][input.totalDrawers + 1][input.totalSecuredDrawers + 1];
+        exists = new boolean[2][input.totalDrawers + 1][input.totalSecuredDrawers + 1];
     }
 
-    public long set(final int drawer, final int height, final int totalSecured, final long totalWays) {
-        this.exists[drawer][height][totalSecured] = true;
-        return this.totalWays[drawer][height][totalSecured] = totalWays;
+    public long set(
+        final int lastDrawer,
+        final int remainingHeight,
+        final int remainingTotalSecuredDrawers,
+        final long totalWays
+    ) {
+        exists[lastDrawer][remainingHeight][remainingTotalSecuredDrawers] = true;
+        return this.totalWays[lastDrawer][remainingHeight][remainingTotalSecuredDrawers] = totalWays;
     }
 
-    public boolean contains(final int drawer, final int height, final int totalSecured) {
-        return this.exists[drawer][height][totalSecured];
+    public boolean contains(
+        final int lastDrawer,
+        final int remainingHeight,
+        final int remainingTotalSecuredDrawers
+    ) {
+        return exists[lastDrawer][remainingHeight][remainingTotalSecuredDrawers];
     }
 
-    public long get(final int drawer, final int height, final int totalSecured) {
-        return totalWays[drawer][height][totalSecured];
+    public long get(
+        final int lastDrawer,
+        final int remainingHeight,
+        final int remainingTotalSecuredDrawers
+    ) {
+        return totalWays[lastDrawer][remainingHeight][remainingTotalSecuredDrawers];
     }
 }
