@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SuppressWarnings("unused")
-public final class DisjointSet<V> {
+final class DisjointSet<V> {
     private final Map<V, V> parentMap = new HashMap<>();
 
     public V find(final V child) {

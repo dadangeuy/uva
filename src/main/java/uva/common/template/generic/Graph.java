@@ -7,7 +7,7 @@ import java.util.Optional;
 import java.util.Set;
 
 @SuppressWarnings("unused")
-public final class Graph<V, E> {
+final class Graph<V, E> {
     public final Map<V, Map<V, E>> edges = new HashMap<>();
 
     public void addBi(final V vertex1, final V vertex2, final E edge) {
