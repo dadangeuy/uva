@@ -18,7 +18,7 @@ final class BufferedIO {
         this.out = new BufferedWriter(new OutputStreamWriter(out));
     }
 
-    public String[] readLines(final String separator) throws IOException {
+    public String[] readLine(final String separator) throws IOException {
         final String line = readLine();
         return line == null? null : line.split(separator);
     }
