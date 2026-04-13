@@ -1,0 +1,2356 @@
+1 3
+cabbccbbcbaccbbbbacaaacaa
+ccb
+abcbaabbbaaaccbbbacab
+bbabbabccbbaababaccbacbba
+2 2
+aacaaacbc
+caabcbaabbacbbaaaababbb
+cabbbabbbbaba
+cbcccacaccababacaccbba
+1 1
+ccaaccaaba
+accccbbc
+3 3
+caaabaaaca
+baaabcbccbccbabbab
+babcca
+aaabaccbaaacacbcccaabbcbaacac
+bcbcbccbaacbac
+bcabcacbabcbbcbcb
+1 2
+cbabcbbbabbb
+acbaaacbcbb
+aaabcbbabaaacbbaabcaab
+3 3
+cacacaccb
+baabb
+abaacbbaaccaaacacccba
+bbcacaababcbcaacaabaacabcc
+bcbaaabbccccabcbbca
+aacabcbcbbabaccbcaaaca
+2 1
+bbac
+cbcabbbbbbbaabacbccccacaccbb
+aaaccbaacabbbacaacba
+3 3
+ccccaacacbccbccbb
+aabaabcbbbacacbaccab
+caccccc
+bbabbcbabbbababc
+bbc
+babbcbbcbcaabcbaabccbcbcbaaacc
+2 3
+ccbcabbcaabbcccaacabcacabbbbab
+abaacccbc
+aabcac
+a
+cbbcccaacbcbcbcaacc
+1 2
+ccbabc
+aaccaaabcba
+bbaabcccccbcabaacaca
+3 2
+aacccbababbbcbab
+ccbccbacbcaccbaabaacbcacabaacc
+cbcccacbbbcb
+bcacabcbaabbcccccbbbb
+acacbaca
+1 1
+abaaccaacbabbcbc
+bbbaabababaaabaccbcccababa
+2 2
+caaaccaac
+cbcabacccbaaaab
+cbcabcbcabcbbca
+aabcc
+3 3
+ccbaaccaccbbaccbccbbabccaababb
+bbcccbaababaabccbcbcacccbaab
+acabbbccbcbbcbaacacbb
+abccaaacc
+bacbccbacaaccacbacbccbbcbcacb
+aaaabaaababbcacacccbccabcbacbc
+2 2
+b
+baccbbaccabcababaab
+aaaab
+a
+1 2
+baccbabca
+bcacacacabcccac
+ccaccacca
+3 1
+ccacac
+bccccbaccbabaabacaabcbcbb
+cacbbbbabacbababbabcb
+ccaabacccccbabaccbacabbbac
+2 1
+ccbab
+acaaccabcac
+ca
+2 1
+caabcbcabacbaccbba
+accaabca
+cbacabaaaabcaa
+1 2
+bbcaaaacbbbcbcbcbbbcca
+accbcbcacabaacabacacabcacabb
+a
+2 2
+bbacabcba
+acbaccbababbaaccbc
+cbcac
+aaccacaabbbabba
+3 1
+abaccbbabacbbbcbab
+caabcaaaba
+abcabba
+cbabacacbbbcbbccbbcccacaccc
+2 2
+bcaabbaacccb
+acbcaacccccaacbaaac
+baccbacabb
+baabcabbaa
+2 1
+c
+cacacbaacbcacabaabb
+cabaaa
+1 2
+cabbcb
+cacccbacaabbc
+abacca
+2 1
+abcabbbbcaa
+aaccbcaaccbbcabbbbacbaaacc
+bccaabbc
+3 3
+baab
+bacbabcacabacaab
+cacacba
+ccccc
+bcacccbabb
+cbcbcaaaababbbacbbbccaac
+1 3
+aa
+abaacbbbcbbbcbbacbacbccbc
+babbbbaacaba
+accbcaaaacaaacabccbbaaccb
+1 1
+baa
+bcbbbabaaaaaaccba
+2 3
+cbaaaacbaacbb
+acbaccbacababcbbabcacbc
+accccaac
+caabbabaccbabaaabbccbccbbbaa
+bbabbcbcbcbbababcbcbbbaabbcb
+3 2
+abcccabaabbacaabaaccbbcc
+acb
+bbcabcbb
+bcacbccccacbabbbcbcbcaabab
+bcbcbaaacbacabccab
+3 3
+a
+ccbbaababccbbaaacbcaaba
+babcbcabbccccbabbcacacaaaaabbb
+cb
+cacccbb
+bcabbabb
+1 2
+baacbacacbcabaababaac
+abacabbababb
+accbcccababcbcbbaaacbcaaabbbca
+1 2
+caabcbb
+aacaaaacbbbccaaaabccaaacaabac
+bcabcbcbbbcabbccccbbcccc
+2 3
+cabbcacccacaaacaac
+bbbcbcbbbabbaaba
+bccbabbbccba
+cbaabccaabb
+ababbaababccbbaaca
+2 1
+cbcbcbaacbbbbca
+baa
+cbabaccccacabccbaccca
+3 1
+acabcaacbacababbcaabbacaaab
+aacabacaaaabacb
+bbbacbabcccacbacaabb
+bc
+2 2
+aacabaaccac
+acb
+aabbacbaccbcababbac
+bccbaccbcbbabcbb
+3 1
+acaaaccaccb
+cabccbcaaabababbcaacaabbab
+baccb
+aaacababcacbbcaaabb
+1 1
+abccaccccaaba
+ccbcbcbbabbabcaccaababaa
+1 1
+bbbbabbbbcbcabcba
+abbba
+1 2
+abbaccccbbbcaaaccabcbcbcba
+ababbcbccbcccbbcbbacbbb
+cbccbbabccbcbababbab
+1 3
+caabcabbacbbca
+abacccbabccabaccbabaabccc
+accacccaa
+ab
+3 3
+ccbcccccbbabcbbbcbababbb
+aa
+baaaaccc
+bcbaacababaccccababbcaacbac
+bccababcabbabcaabcbaaaccacbaab
+cbcaacbaca
+2 2
+babbabbbbabaccbacbbbc
+caccbaaacbbbccabacbbbabc
+bcb
+cacabbcbbabacacbaccaabcca
+1 3
+bacbbcabbcaccaccbcccabccaccbca
+bbbcc
+cbccccbacccbbccacbab
+cbbbccac
+1 2
+bccabcbacacbcaab
+abcb
+bccbbaacaccbaba
+2 3
+acaabaca
+bbaccbcabaaabbb
+baccabbabbaaaaac
+abccbccbacabbbabbccaacac
+abaaaac
+1 3
+a
+aaccaccbccbabccccaba
+bcbacbbcbabcbbabcbbbabcbbaacb
+abcbcbabc
+3 2
+cb
+ccaacaabcbaaaabccbcbacbca
+bcccaaccaccaabcb
+bbaaccaaabcccaacaaaaaabacca
+cbbaabbcbcabaabcbbac
+2 2
+bcbabacaaaabcbb
+acbaacaabbacbbcabbacbaacabbca
+cbcacacaab
+babaabbbbcaccacbcabcaaaa
+1 2
+aaa
+aababacbacaabcbaccbaaacb
+aabbbbccaabbcccaacbaccc
+1 2
+cabb
+bccbcbbacbcccbcbabcabbacabcacb
+babcbcbbcabccabbaabbca
+2 1
+ccbacca
+bcbcacacbab
+cbaaabccaaaacbba
+1 1
+abccabacbbb
+bcbcbcabaababcabccc
+1 1
+bba
+c
+3 2
+abacaaaaaaacaaabccccb
+ccbbcabbaaa
+ccaacbbbbbbcbbcacbcbbacacac
+aabbcabcb
+bccacaccbbbaaccabccaccacbac
+3 3
+cbcbbbaaa
+bbacbbc
+bbacbbcabaccccacaaaaaaccccbbb
+aacbabc
+cbbcbbbaabababcabbcabbcbac
+bbacacbabcbcaaabbcbbabcccaba
+1 3
+aabaccaacaa
+accbccaccabbaaa
+abcbca
+cabaa
+3 2
+baaabbcabaaccccc
+bcaaacbbcbaabacabac
+aabbabacbbacaba
+ababcabbcbcbcbbccacccaaabbcac
+baccbcbabacabc
+2 2
+bbcbacacccab
+cab
+ccccacbacacbcacbcbabcc
+caacaaabccbaaac
+3 1
+bcc
+babcbbbcccccccacaaa
+ab
+bbcaabcbaaccbabaabacccbbabbaba
+1 2
+abababbacbacacbccaccbcaac
+cbaabbbaacccccaabacabcab
+cbcaaaacabbc
+1 1
+bbbbcabacaabcabaacc
+cab
+1 3
+cacbaccccbcaabccabaaacbbbbb
+abaaccbbabacaaab
+abaccbcbcacbaaccbccbc
+babcbcccbabccaacaab
+2 3
+caccabbbbbacacbabacbaccb
+bcacb
+ccccbbacaaaabcbbaccaabacacab
+bbcacb
+aacbbaba
+3 3
+cacaacaaaaababaaacbca
+caab
+cabcaccbabbaccba
+acabbbbcabcacacbcc
+ccccabaaabaaca
+bc
+1 2
+accbaaaccaabb
+bba
+aabbaccaaccbaabcbbacbbacabb
+1 2
+bcbbbbbabacccccccaabbabbaaacc
+bcabaaccabbabbbba
+bbcacbbaccbaac
+3 2
+accaaacc
+bbc
+bccccaacacacabbbbacacabcba
+ccbbcabbacccaaa
+acaaaaccbbaacbacbcbbbcabbac
+2 3
+cbb
+ba
+caababbacab
+bccaabacacbcbaaccbcbc
+acbc
+3 2
+aab
+baacbcacccaa
+abbbbacabbacacabacaabcbaaba
+aaaacbcbcbcbacabbaacaaaba
+cbbcbbaacabacacccabcbbababb
+1 2
+bbcbcaccbccacbcbbabcca
+aacababaccabbbabaaaaaaabba
+babcbcbcbca
+2 3
+cacbccbabcac
+accbabbaabcbbbcbcbcabbab
+abbaabbcccbabbcabbbbb
+bcbcbcaabbbaccbbabcccabcbcabb
+aacbabaabcbacbababacaaabacbaaa
+3 3
+bccaacccccbbbcacabcbb
+cbbcccaac
+ccaccc
+cacabcbbccbbcaaaccc
+aabaaababbb
+bbbabccaaababaaacbcaba
+3 1
+aaaabbbbaccaa
+cbaccccbaccccbacbb
+ccacac
+abbabbbbbbababaccca
+1 1
+babcccacbccababcaca
+aabbbbaabcaaacbbacbbcbcacbc
+3 3
+aba
+cccbba
+aaabbbbccaaaaabbcba
+acc
+bacbbacaabbacacbaac
+bbbbabbaabbacbcccbcccbacbc
+2 1
+ccaccbaabbbbbaacacabacbcaaac
+aabcbbccccbcbabcbabbbccbca
+aaccaaabccbcabccaaaab
+3 3
+acabaaabaaacbaac
+caaacabaaaabcaccca
+abbcbcbabccacacaca
+aacbcccbbcaccba
+babbbbbcbcbccbbaacccbccaccacb
+bacaaabccabbcabccbbcbacbbbac
+1 2
+ccab
+baacbacccbbbacaacbcaababcbac
+aabaaabbbbcacbaabbccaaaabccaac
+2 2
+ab
+abacaaaacaccabaaacb
+ccaaccaacccaacc
+aabc
+2 2
+caabcaaccacbbcaccccb
+cbcacccaabcbbbcccbbcaba
+cbabbcabaaccabcaccabcc
+baacbcabbc
+1 2
+accccbbbacacb
+baaabcacbcaaaacccacbccbbababb
+ac
+1 3
+aaacabcaccacccbbccaabb
+abcaacbbaccaabcabbaabccaa
+bbaabbcbcaaacbabb
+c
+3 1
+cbcbbcbcabbcccbcabbccacbbcc
+cbccabacccacb
+cbb
+cabacaacccacccbacbbabaa
+1 1
+ccbbbabbccccaccabc
+ccbbbcababacacbcbcbacbabbab
+1 1
+aa
+bcaabbbabcb
+2 1
+bcbcabcbabccccabbcaaccbacac
+caaaacabcbcccaaccaccac
+cccbabaaabbbccaabbabaabbb
+3 1
+cbbcbcabbaccbb
+ccbbacaabcccbccc
+cacabcccabbccbcacbbbbbbc
+aabaabacbca
+1 3
+cabbccccacbc
+abcbbccbbbbbbabbaa
+babacbabbbbacaabbabacccb
+ccaabcbbbcbcaaaaabcacbcbaaba
+2 1
+acaaabbcbccbcab
+acbcbcacb
+cbacabcaccababacacb
+2 3
+bccabbbaacaaabaaccaabbb
+baabcaaaa
+bbccccaca
+c
+bcaccbbbaacbcbcabaaccccbcccc
+1 2
+bcbbbcaaacbbaac
+aacacbabcc
+bab
+2 2
+bccaac
+acccaabcbca
+c
+aaabcbccbbbbbbcbaab
+3 3
+bbbbaabcacababcbcbbccbc
+bc
+acccaabcccacaacbbaaaabcabaaaba
+ccacabacaa
+cacccaacbbcbbbbbabca
+cbaaacabccbbbaacabbbbabcbccc
+1 2
+aabaabacbaacaa
+abbbacbbacabbbcacbcabbabcac
+baacccbccab
+1 2
+bbbabccccababbcacb
+cbccbbc
+cbacbbababcabab
+3 3
+bc
+cbacbaa
+bb
+aaca
+abbacbbb
+abccbbbabacaabba
+1 1
+baccbbbccbbccbb
+cacbccbbbbacbacabcccac
+2 3
+ccbaacabb
+bbbabaaa
+caaccccbaaccccc
+cbcbacccaabbac
+cacc
+1 1
+bcbbcaababaacbcbaac
+cbbcccbccbcbbabbbccbaacbbbcabc
+1 3
+acbcacccacacb
+bab
+bacaaaccbbbaccbbcbab
+ca
+2 1
+caacabacbbbaabacaabacbaab
+abacbc
+cccbcbaaababc
+1 2
+cbacabbcaccbcabbb
+aacabcaaab
+baaabbbacabcca
+1 3
+bbaacababcb
+c
+aab
+cacacaaaa
+2 3
+cbbbccbcaccbcaa
+cacaac
+bccaabaaa
+baabbabbacaaaabcabaabca
+aacbcabaacabacbaabcbabaacbba
+1 1
+cbccc
+cccaacbac
+1 3
+baccacbc
+acbabbbaaccbcbabcaccbbbaba
+baaaabbbaac
+abcabbacbabcaaaaccb
+3 1
+cacbcccaaca
+cbacccaabbaab
+cabacbaccabbccbca
+bbacabcacabbcabaabbcba
+2 2
+bccc
+bcccccbbcc
+bcaccccaacaaacacaa
+accabbcabcabaccaaccbc
+1 2
+ccbcbabbbbacbaaaaaabbcba
+aaaaaacacbb
+bbbabbbcccaabbbaaccaaa
+1 2
+bcacbbcbccc
+babbb
+bbcac
+3 3
+bcaabbbcabaacaacacccabb
+aaaccbaabbbccc
+cbacaaaabacabccacc
+cbcca
+abaacbabcaacbabcbbababa
+cbbaabbbbabbbccabcaab
+1 2
+aaaccacbbaacbaac
+babbb
+baabacbbcbcabcccbcaababaccbc
+2 3
+bcccaabcbcaaacacbabacccb
+cbcaabaacab
+bbbbaccccabcbbccaabab
+bcabacc
+cbbbabaaacbcccbbbbbcc
+1 1
+bbabbabbbccccbbcacabb
+abccbabaaaba
+3 2
+caaccaaacc
+babcbcbbbcc
+bcaaaacbaabccccabcb
+aaccabccbbbcbbccccaccc
+cbbcabca
+2 3
+aacccacccababacaaaabbbbbbaba
+aabbababbabbcbaabaabbc
+cbbccccaaacbbaccbaa
+acbaabbcba
+abbaabccca
+2 1
+cc
+cabbbaccacbb
+aacbbbaacbcbbbccbabcb
+2 1
+bb
+cbcbacaccbcacbcb
+ccbbcc
+3 3
+cbcabccbbc
+aaba
+ccaaaccccb
+c
+acacaaacbaabaacaccacca
+aacaccaaacbcccbcabaccb
+1 3
+bcabbabbacccbacababbababaabaa
+cccaa
+ba
+ccacabbbabaac
+2 3
+cbaaabca
+bbaacbaaccbacccabbc
+baccccaacbba
+cbcacaabcaccccacacbaaccca
+abcaccacacaacaabcabcab
+1 2
+baabacaacbaabaacacabb
+baabcccabbbccac
+abaccbcacca
+3 3
+bbccabba
+abbaabbaabbaacab
+ababcbccbabcbcbcbccaaabcbabbbc
+baaabcaaabcbacccacabcbaacabb
+bcaaabbbcccbbacbacaccbaabb
+cccbbccbcacac
+2 2
+aaabccabbaccbbbb
+bbccacbcbb
+cbccba
+aacabaabcbcbbcaab
+1 2
+bbcaaaacaabbbbbbbcbacbacbcbbc
+ab
+ccaabaabcbcbaccabaaabacbcab
+2 1
+bbbbabbbabcbb
+cacacbbbcacccbcccb
+babacabaacbcbcbcbcaaccacb
+3 3
+cb
+ccc
+b
+aaacaacbccb
+cacabbbbacabba
+bcbacbbbacbbba
+2 3
+bcaacbcbcabbabb
+bacabbbaaacbbb
+ababbca
+abb
+baabcbacacabcbbcacabcbcbbabcba
+2 2
+ba
+cccbabacbaacacacababacbbbab
+ccbcbbaccacccaccaacbcaca
+b
+1 2
+abcbacccbaaaabcbaacb
+bccbaacbcbcabbbbbaccc
+a
+1 1
+bacbaabcaacaaccabcaabbbbbbbb
+aabbcccbbcb
+1 3
+abcbbcaca
+aaabaccbbacbb
+ccbacbacccaaccbaacaabbaaaba
+acaaccbcbbca
+1 2
+cbabaaccbaacabcaacaaaababc
+ccbabcbcbbaacaacbabaababcbccc
+bccaaaabbb
+2 1
+cc
+ccacbacabbcbbccccbbcbcc
+bbacbacbcabbabbccbcba
+3 2
+aacccbacbca
+ccccccbc
+cbcbabcbbabbaaccbbbaccccbcbb
+cbaacabaccc
+bbbcabb
+3 1
+cacac
+bbbcaabc
+ac
+bbacaaccbbbcc
+3 3
+abaababbaccbcccabaaaccb
+bb
+ababbcbcaabb
+aabaacbacbabbcaabca
+acbcbbabacbbabbbacbabccaa
+ababbbbbbcccbababcbabcaac
+1 3
+bcacbb
+caacbbcccbccbbccbccababbaacc
+cabcabbbaaccacabcaacbab
+acbacbabbcbaaacaaccbbaabab
+2 3
+cabcbccbcbbcbaabbbcbbbb
+baabccababbbaaaabcabcaccaaa
+ccbbcbcbbaabbcccabccacbaaacaaa
+baa
+acccacccacaacbccbcaccbcbcaa
+1 1
+cbaaabacbab
+ababcbbcccbcaabacccbbcab
+2 3
+bcacbaacccbbbaccb
+cbbccbcbaaaabbacbbbbbababccbb
+cbcabccbbb
+bbaabababacccabccabccaa
+ccbbacccbaaabcbcabcacbacbbcbc
+2 2
+acacacbca
+aab
+baaccccbbbaccaaacb
+abbbabb
+1 2
+ccbbca
+baaccacaacbbbccbbcbabbb
+acacbb
+2 1
+cccbbaaabbabaccbabbacaccb
+caaacccbcbacababa
+bcccaccccccbabbbbbbbaabaab
+3 1
+bcbbabbcabbbabcbbccaaabcabaaa
+bcccaabcaaccbcabbabaa
+bcbbb
+cccabcbacacaacccaabbacabbcb
+3 2
+cbcac
+cbbbbb
+bbcccacaacbbaabcaabbccb
+babb
+cc
+2 1
+abbabaccabccacba
+bcbccbbbcacbbabbbaaccc
+acacccaacabccaabaabccb
+1 1
+acaabacbacccaabca
+aaaabc
+2 2
+accab
+cccbbaacaaacabbcaaacbcc
+aaaa
+bb
+1 3
+cbacaabbbcaba
+ccccaccccbaaabacbaaccba
+abbabbcabbabba
+acaaacccaaacbccc
+2 3
+cbbcbc
+bbcaacbbbcbbaacabbbcbacaacca
+caaaaaaaccbbabbabcbabacca
+aaabaababcaac
+cccaababbacaababcbbacaacabcc
+1 2
+baacbcaccccbcabbacccbaabcccb
+acaaccac
+accaaabcbbbaaacbbcabaacaabca
+2 3
+ababbabbabbbacbcccaccacbc
+aacababb
+acb
+acacaabccaccaa
+baaabaaabccbac
+1 1
+ca
+baccabbaba
+1 2
+aaacccbacacabacccbb
+abaccaccbcaccabcbbcabbbacb
+ccbabbbaacbbbaba
+1 3
+cbaaccbbbcbcacbbccc
+bcbccbbbcabcbcaaccc
+bbbba
+aacacaababcaccabcca
+2 1
+ccca
+cbabbacbbccaaaaabbcbbbaabba
+abaa
+2 3
+abb
+bbacbaabccabbba
+cbaabacbcaaabcbabbaabbbaaabcb
+baacb
+cba
+2 3
+bbcbbabccbcaaaacaa
+aaacca
+bacbbacababbaaccbacccbacbbabaa
+c
+caaacacbcabbcbacb
+1 2
+bcacabbcabbabcbccacacaab
+aacaaccaacbbabcbccbabaacab
+cbbbbbaa
+2 2
+cbabbcaaaa
+bbbabcbcabcaccababbabcbc
+ba
+cabbacbbaaaaca
+3 1
+bbbaabcbcacbbbbcab
+abababcccbabaccbac
+cbabacacbabbbccabbaabbbacabcba
+bcbcabba
+2 3
+cbaccbaacbcaaccabbaacacaa
+aaaaacbcbbaacbbcbccac
+cbbcbbaaabbbcccbbaacaca
+bccb
+acabbbac
+3 1
+bacbacbcbbaaaacccbcbb
+acabbc
+baacccacbcbacbaacacb
+aaaa
+1 3
+bbbcbaabca
+cabcbcababca
+c
+cacbabbaac
+1 3
+b
+abacaababcbbbccbaaabacbaaaac
+ca
+baccbb
+1 1
+cabbbabbabccacbbbaa
+acbbaacbbcc
+3 2
+accabcacbbaacbbacabaabaabcbbc
+cccacacaccabaccccbcb
+aabacbaaacaabbaccbcbcbcbc
+bbc
+babbbacbacaca
+3 3
+bbacabcb
+cabaaac
+cbaabcbab
+abbc
+aaaabccbcbbabcabbbbcabbcccc
+accbacccaacc
+3 2
+cabbbbbcabcbcbabaacacabb
+ac
+aabbcb
+aababcacbbbcababbacccccb
+aabcbbccaababacaccaaab
+2 2
+aacbbbaaacbcabbcacca
+acbccabbcccaabccbccbbbcbabbcbc
+cba
+cbaabccb
+1 2
+accaacacbbbabb
+bbcabaccccacbcccccaccabb
+cabbcbab
+1 1
+bcbaabccccabaacccca
+acaccabbaccbb
+1 2
+a
+bbccaabcbabbaabaaa
+abcbabccbaabbcaccbaabbbccbca
+1 2
+bb
+cccbcccaaaaabaacaababac
+cabbcbaca
+1 3
+bcabccccaccca
+abaabbabbc
+aa
+abccbcabcba
+3 3
+cbaccaacaa
+aacbaccacbcabbcbbc
+ccbaabaaababbbaa
+aaaccccbc
+baabcaaaacbaacbbcaccaaabbcbb
+abcbcbba
+1 3
+abcbabcaababc
+aab
+cbbabaacaaacabbbcbaccabcabcbb
+cbabbcaccbacabb
+2 1
+baabbba
+bbccccbaab
+baaaccbcabbbcccb
+2 1
+cbbbacabaaccccbbcacabbaacbbba
+acacbbcbcccacb
+bcccacabc
+3 2
+cbab
+aacbabbcbbaabccbacbbcccca
+bbabaabccbbbb
+cc
+ccaaacccaccc
+2 1
+bcbacabaacbbcaabcc
+cccaccbbbbbbcbbbabcacbcbbcc
+cbbbbabbbababcbcaaabcccbb
+3 3
+babbccacbcc
+babcaaacccbbcaabccaacbccba
+cbcacacbaccaccbbba
+acbabccbbac
+babcacccacccabbbbbbbcccbccc
+acabacbbcbaaaacbcbabaca
+2 3
+bbbaaacbbccaccbbaaabcab
+ccaaacbcbaacccbbbaccabaa
+bbcbacccacaacccabbcbcbaa
+aacba
+abaabccbacbbbbacacc
+3 2
+bbbabcbbabbaacccbbaa
+aaca
+abaaaabcaacaccbbcaaccba
+bcaccbbcbccbcbcbbbbbbacba
+aacbbbbcbabacaaccabbcaaab
+3 3
+aabcbabbcccacabcccccab
+bababbccaacabcbbcabccccabba
+bbaacabbcbbccaabaccaababbcbc
+babaccccabcbbabbabaabababcbbb
+aacbabaabbcacaaccca
+cccb
+1 1
+bccbbccacaaabcacbcbccacac
+bbcbccacaccaabcabaaaccaaccacca
+1 2
+bba
+aaaccbc
+c
+1 3
+bcaabccbbbc
+ccacaaacaa
+aaacbaacbaacccbbbababababcb
+cc
+1 2
+abaaacccaaccbbbc
+bb
+aaaa
+3 1
+aac
+acbcccccbccbcccaccaaca
+aaabcbaacabcaabaacacccc
+bcbcabaaac
+1 2
+accbccabcb
+bcccac
+cabacabbabbacbbccacbccaca
+2 3
+baabababab
+abbbcabccbbaaababcaacbaabcb
+caaa
+cbcaabcc
+cca
+2 1
+bcbaaaabacbababbcbcabcabaabbb
+aacbabbbacaba
+bcbcaaacc
+1 1
+cabbabcabaabcccacaabacabbacccc
+cabbbaacccabbab
+2 1
+babcacbcabbaabccbcba
+bccccbbbbacaccaabab
+cbaabaccbacbacacabaacaac
+2 2
+cabbccbaccabcabccba
+bbacabaabcabacaacbaccbbbbbbccc
+abcbbbbcabbcbacba
+cabbbabccaaccbabca
+2 2
+abccbbbcbabbcabb
+cabbcacbaaabbca
+babbbbcacbcaabab
+ccb
+1 2
+abaabbacaabbbabab
+ccbcabbbbcccbbbcbcbccbabbbbc
+bac
+3 1
+aaacaa
+bccbaccbcbac
+bbcaaabbacabababb
+caabcabbabccabbabbbbccba
+3 1
+abacabbbccbbbbcbaccbbccc
+c
+bc
+bcbcbcbcc
+1 2
+bbcbccbbaaccccabbcacbcc
+bcbaaaacbcabaacba
+accbbaacacbaaaaacbbaaaccbac
+2 3
+cacbbbcabcabbacccbccbbcbbccb
+bbabbbaabbcbbb
+abcaaccbccabcacabcb
+aa
+baaabcbccacaacaccaaccabaabcbca
+3 2
+caabcbabacbaa
+abaaacacccbbccacca
+bcccabacaaac
+ccccccbcaaa
+aacababbcabbbcbccb
+3 2
+abbcbbcbbcaabcbaaccabbaccca
+abbaabacaaabcbcbbbccbcacbbcaa
+cbbcbbaababccbbcccabccaabccbba
+bbaabcaccbabbbcbaccccbaa
+acbcaaaabbcccbbbbaaacbbca
+1 2
+bbcbabbcccababbbbaccab
+bbaaabcaaabbbc
+bcabaaacabacb
+3 1
+abaaa
+baccccaacaa
+acaaaccccbbbccaacbccbccbbcbb
+acbcacaabccccaabbab
+2 3
+aaaabaabccacb
+abbaaacabbbcba
+cababcbbbababbcabbbcbb
+ccbacabbabaaacacaabccccc
+abcbccbccccaaaa
+1 3
+baacaaabacabaccacaaaccbcabc
+baccbbcbcaacabbbabcaab
+cacbaabccbcbaabcccacababcacc
+aacaabcbcc
+2 2
+cbbbccaacababcacabbac
+bbcabacaabbccbcabbaacaa
+cbbccbabaccbcbcabba
+cccbbacbbbcbcbbcabbbbaa
+1 2
+acbbccaabbbab
+bcaacaabbaabcbcacbbaaaaa
+bccbaaabacbbcc
+1 1
+acabcca
+cbabbcbabcacbba
+2 2
+bacbaacbbcbcbcccbacacaaca
+cabbbaa
+bacccbbaacabcbcccbcc
+ca
+2 1
+cc
+bccccca
+cccaabccbccaa
+3 2
+bbabcac
+bbcb
+abbababc
+aacabb
+bbbcbaccacbcaacaabac
+3 1
+abcccabcccccaaaaaabbcacbbabbcb
+ccbbcbacaacabcaaccccbc
+cbcbabcbbcaacbcbacba
+bcbbbabcaccccbabb
+3 1
+bbaabacccbcccaaaba
+abbbaccab
+bcbccbbbaaac
+aca
+2 2
+bccbbb
+accc
+cabacaaaaccabac
+cbcb
+3 1
+a
+bbbcb
+acaaaca
+acbccabbaaacbcaaacbc
+3 1
+acaabcbaaaaabcbbbbbb
+acaaababaccaaabacb
+aabbaabccca
+aabbbccaaaabbaabaccbcbacc
+3 2
+cacacabcbcabbabbbcccacacbbca
+cabaabacacbbaccbabbbcbbbcbabb
+abcbccbcbbcacaaaccbbaa
+ccabababbbaaabbaababaaabacac
+babbacbcaababba
+3 2
+baccacbbaacccccabcb
+abccaabaaaa
+abcbaabbabacacabcbaabaccbbccba
+ccacccbc
+ccaaaacaaaacbbbcabbacccc
+3 3
+aaaaacabaccbcbbccabbacc
+cccaccaccbacabbabbc
+caccbbbcbaabaabaaba
+cbc
+ababaababbcbccab
+bcbccbcbaabb
+3 3
+abbacbbbcccab
+bbbcbcacaccbabbacabbbcaca
+caaabcbacbacbacacacca
+aaabcabaabbbabbbbbac
+bbaaabcabbacbabaccbaca
+abacaabbacbabcabcca
+3 3
+babbbbaab
+abaaccabbbabccacaacbabaccbaacc
+babbcbabcb
+cbccacbabcbbbbcacaacb
+b
+bbaaacacacabccca
+2 2
+bacccaaaaababacb
+abccaaccbcacbabccbb
+baccb
+caabaacbaaccbabbacacacabacc
+3 1
+cbaaaccacbbccaaa
+aba
+bbcbbcccccabb
+abca
+3 3
+aacbcaabccaabbbaccccbbccaaaacb
+abacbacaaab
+bcabccbcccbbcbc
+cb
+caacbccccccc
+caacaabccbbacbbccbcab
+1 1
+caaca
+bacbaacacacc
+1 1
+cacbaaaabbabcbbbbaabc
+aabcbbbbbbaacacbbaabccbb
+3 2
+aaaacbbaaaabca
+bacac
+aaccaccbbbbccacbb
+ccaaba
+aabbabaabccb
+3 2
+cabbbabacbbaccaccaacb
+accccbacbcacbcaaabcbcc
+cbbaabbb
+baacbbcabaaaacaabcca
+abbcbcbb
+3 3
+acabababacaabbccbbaccaaabbc
+cbacaa
+bcaaaccbbaabcc
+baababaacabcaacabcaacacb
+aabccabcbacbacbbcaccacbc
+baaabaabbcccbba
+3 3
+acccaccaccaaccaca
+aaabbbaabbaccbccabbaccaaaca
+caaaabcababcbb
+aaaabbcbbcccaccccacacb
+ccabaccaacabbacbbbabca
+babaaaaaaacbabbbcbc
+2 1
+ba
+ababbcbaaaabbac
+ccacbbccbcb
+1 3
+bcbbbcbbbaa
+bcaaaaccbacabaccbbba
+accac
+cccbbcbacca
+3 3
+ccabbcbccaaccacabaccbbbccbacc
+bccbbbbbcaccabcccbacbabccbca
+b
+c
+abbccccabbbcabccccbcbaccaa
+abccbaabacabbbccabbabbbbacbc
+3 2
+accabcab
+c
+acbcccccccbacbcccbcabcbbaaccab
+bca
+babbcbaabcabccbba
+3 1
+baccbccababaaacbc
+cab
+ababccbcbaacccbaaabbacaba
+aaaabaccb
+3 2
+caaacccaccccbbcbcbcabbaaaca
+cab
+bcacacacbcaaaccabcbaababbbb
+caacabbacbbbabcb
+bacabacacbc
+2 2
+cbbacbabacac
+acacaacaacccbcabbacccaa
+cbbbcccc
+cac
+2 1
+caabcaab
+caabbcbaccbbbbb
+aacbcbbcbccccacaaaccb
+2 1
+a
+cbccbbbaccccacbaaaaccbabbc
+b
+2 2
+bcaabacbaacacabcaba
+bcbababacc
+bccbbcbcabcbaaaabbabaac
+bbacba
+3 3
+bccc
+abbcaccaabcbbcbacccabccbaac
+acbb
+cbccaca
+bcbbb
+bcbbbabcbbcccbaaaabca
+1 1
+babccbabaaaacabcabbbaaaaba
+acaabbbbbcbacaabcbccbcbaacba
+2 2
+bbbabccabaabcabaaaaa
+babcaccccbbbacbabbccbbcbaacbb
+ccc
+bbacabab
+3 2
+bbccbccaabbcbbbcabcaaacbbc
+bcccbbcaacaccca
+bacbabbbbcb
+abacacccbcbcbccacab
+abcbcacbabbbacabb
+3 1
+bbcbcbbcaaabccbabbcc
+cbbbccbcb
+bcaacccccc
+bcbab
+2 3
+abacacbacbabbcbaababaaacbb
+bcaccccbccaacaab
+bcabab
+caab
+aa
+1 1
+ccbbbbbacb
+bcaccacacabaaabcaa
+2 3
+bcbcaaccbaccabcaac
+caaccabbaabacacbcbbbcbbac
+caacaabbaacbcababbcba
+cccaa
+aababcacabbacabbbaaaccc
+1 2
+cbbbabbaaaabcaba
+bccab
+acabbaacaabbbcbbbcbc
+2 1
+bc
+abcbabb
+a
+2 3
+ababcabcbacbbbcbbbabccbaa
+cbcacaaabccbc
+bbccacaabbbbbcbcaacaccbcccbb
+acbccbbbcbcbcbaaaabcccbca
+cacbbabbcacbccccbabbbc
+1 3
+cabcbbcaacaccbbcaba
+babcacacbcababacaccbbaab
+babacbaaacaaccbcbccaacb
+ccccaaccbaabcaca
+2 2
+aaccccbccbcbabaabccb
+baccbbcbbbccccbbacbcc
+bbbbabbbaaccccccaaaaaccccab
+aabbcaaabcbbaacaabcacaacaaca
+1 3
+babc
+bbacbbbc
+acabacacaacaaabba
+babbbccbabc
+3 2
+aaaabcabbaaabbcba
+ababcaabbcbcacabaaaabcbbccb
+cbbcabcccabccacaaccacabbaaacc
+cbabcbacbaca
+aabaaccbcbabbacbabaacccaabb
+3 1
+aaaaabbccacccc
+cabcbaaaccacbbaacbaabcabbabb
+bbcabbbbccbbcabaabacacbccab
+abcbabbbabbc
+3 3
+baacaccbbacbbacbcbc
+babbcbcabbbacbcaac
+aaabccba
+cb
+bccacccaacb
+baccbcbbaacacbbbbc
+1 1
+aacaaccbbabcacc
+bccacbaccbaabcaba
+3 2
+bbb
+baabbbbabababbaaacaa
+bbabaacccaaa
+cccccbccbbaacbcbacab
+cabbcbabbba
+1 1
+acbbaa
+baabbcaaababaccabbbba
+1 1
+cbbccbacbbabbacbcbcbcbc
+abbaaacccb
+3 1
+bcacabbbbcaabccbbaccbaa
+abccbbbabccbaaabaacbacaccb
+bbaaacacbcabacbbcbcbacb
+abb
+2 1
+bcbbaaaaaabcaabbaca
+aacbbcaabc
+cbcb
+2 2
+bcaacccacbbaaaaca
+bcbbaaacaacccbcabccbcbabacbab
+ca
+bbcbccaacaabaaccabbaaaa
+3 2
+babccaa
+aaca
+cbbcabababcbcb
+cbb
+caababcabcbabb
+3 1
+cbaacc
+acaababacbaaca
+bcccbbcacccccccc
+ccbbacbababbaccccabaa
+3 2
+caccbbbaaaacbcacbbbcbbbbac
+bbcababacccaacaccaacbcaababcab
+ccbaacbcbabcaccabcaaccbc
+bcacaccbcccbababbbbabbbccbbb
+aacababcccbccaabbbacca
+3 2
+bcbbabbcabbcaaabbbcbbcacb
+cab
+a
+ccaabaaacacabac
+bbcabacacabbacabccbbaa
+1 1
+acabcac
+bbcababcbbacbbbcbcababaaaa
+1 2
+bbacccabaaabcac
+ccacaabbcacaaaccaaccccbaaccaa
+bcaccbca
+2 3
+acc
+abcaaacacacbab
+ccbccacbbabab
+c
+acaacbacbb
+1 2
+bcacbcccbccaccbcbaaaccaccbbc
+accaacbccbababaacbc
+b
+3 1
+bca
+bbbcaaacbcabbbacabccabbcb
+cbbcbabacbabbabccabccbbaaccacb
+bcbaabbacacbccccbaabaccb
+1 3
+cacabbbbaaccbabbaac
+cbacaabcaaaaaccaaacbabbacab
+abca
+cabcbbbcbb
+1 2
+c
+acabbbcaaabb
+cbcaca
+2 1
+bbbbaaaabbccacaccbaba
+caccabcb
+bacb
+3 2
+cacaaabacbbcbcacabaccacb
+caccbbbbaccaaabcbabbbbcabcacbc
+cbabccabbcacbbaba
+abcbb
+babaabaccb
+2 3
+acacacaacacbcaaaabaaccbc
+cacbacbcabcccaac
+bcbbaccbaabccccbbbb
+abcbbcaccacaabcbbccccbbc
+b
+3 2
+cbbacacbcacbcbbcbaac
+acccbcb
+cacbccaa
+acccbcaabcbaab
+ccabccacaaaacbabbabacbcaac
+2 2
+bcaabcbaaacbbcacaacaa
+acccccbacaccbcc
+ccccbabcbbcaccabcabbacbaacabba
+ba
+2 2
+bacacccccbcbcbbcac
+bbaaaabacaabbbcbbbbabcca
+cbccbcbbccbaacabacacbc
+c
+2 1
+ccbb
+bcabbbbcb
+baabccacccc
+2 1
+b
+acabbcb
+accca
+1 1
+ccbabbbacca
+bcbbbcbcbac
+1 3
+abccbcbb
+abcacababaabcbbaabababc
+cbccaabb
+bbabaacaabaccca
+1 3
+cabbacbbcaccacabccc
+caabbaaaca
+cabbbacccaaaba
+acaaa
+1 3
+cbaaccccacabbaabbabba
+bcaccbacacabcabccb
+acccbbab
+ccc
+3 3
+ccaccba
+abcabcbabbccccbbaacaca
+cccccbbabcc
+bbcccabbaaabcabc
+cbacbac
+ccc
+3 2
+cacaaac
+bbbacccacabcca
+bcacba
+cacbccbcbbaacbaabaaacabcbb
+acbaccabcaabccac
+3 3
+bbbbcbcaaabbbbcaccaccbaabcacb
+bcaacabcacacabaaaacaa
+caabbcbcbaacacaabaccabcbbcabaa
+cbbbc
+accaccbbccbacaabcaccabcac
+ccbcabcacbabbabaabbccbcb
+3 2
+accbbcbacccabbaaccabbcacab
+bbaacaaabacccb
+bcbbabbca
+baccbabbbcac
+ccbbbcabaaabbbcb
+2 3
+ccbaccbcbbcc
+acabccbacbaaabaababbccbbbca
+cbacbbbaacbaababbbaaccbbb
+bbccbbbcbaacabbcbacacabcbbba
+babaacccabbac
+3 1
+cbccaaacbcababaabaaccccc
+cbabbcbcaacbbccbcacbbc
+ccacccbaaabbcbabcbb
+abacacbcabaab
+1 2
+cccbbaac
+bcbbacaacaaabbbbbbbbbcbacbabb
+ccaabaaccccc
+3 2
+ccaccbcbaaacba
+bccb
+baabbcbaaaabaaaacabcbabcacca
+abcbbcababcbbbccc
+bccbbcccaaba
+1 2
+acacbc
+ccacbcaabacbbaaacabbaca
+ccccbcaba
+1 1
+bcbabbabbcccaacbbbbcbbababbcaa
+ccbababcbacbb
+2 3
+bbbbcbacbbbcbbccababca
+bccc
+bbabcbcbbabcbacaccacbcca
+ccccccbbacacbaacbbbcbcbaacc
+bbabacaaccbcbacbaa
+2 3
+aaccbcbbbbbcbbacab
+bcccccbbccbcc
+aaa
+bcb
+bbcccbabccabcaaacacbaa
+2 2
+abcabaaabaaacbcbabbbb
+cacaabbcbbbbcaccbbab
+acbcbaaccccacbbbababacb
+c
+1 1
+bbcabaacbcaabaaaaaabb
+b
+1 2
+cbcbaabbabacca
+acabababcbcccbbbbbbabccbcacc
+accaaabbaccacbabacabbba
+2 3
+cccbaaab
+ccacbcbabcabac
+aa
+aabbcabbbbcccabacacbbbbca
+ccacaaabcacccaaccb
+2 3
+bbacbcacbbcabcbcababab
+acbaabcbaacacbacbb
+cabbabacbbaacacbbbaaccccbcc
+acbaaccabaaacaaacbbbacbab
+cababcac
+2 2
+cbcbbbccabcaccccacbaba
+cbbacbacacacabc
+bacc
+bcaabcabccabbbbabcbacbbaaccc
+3 2
+cacabcaacaaababcaccaabab
+cb
+abaaccabbacbcccbabbcaaabbaacb
+bcabcabbc
+cbabbcabbbbcbccaacbcbccab
+2 3
+abacabaacbaaabacacb
+abbbbacaaaaaccacbabaccbaa
+abacbcbaaababb
+baaabababcaabababccb
+bacbbacccabaacaab
+2 3
+caabaaaaaaacbbcacaaaacbaaccc
+baababcabaacaabccbcaca
+cccccacabcaaabaaabcabacbaaa
+bbaaaabaaaacbacbcaacbccacb
+aacacbaabbbccacbb
+3 1
+aacabaccaacbcbc
+acccaa
+cacabccbaaaacccccb
+aacaaaaa
+3 2
+baca
+baacacbaccccbbcabccaaaabcaa
+abcacaccaccac
+bbbabaabaabacccbacc
+a
+1 3
+caccacac
+caccccccbaaaabaabbba
+aba
+aacaaaa
+2 3
+cbacaaacaacbabcaac
+bacccacabcbbbacbacccac
+ccbbacaabb
+b
+aabaaabcaabcaa
+1 1
+abababaccccabbbbccbbacbbcaaac
+caaababccbcabbbaacacabcaab
+3 1
+bbca
+ac
+cbacbcbbaaacacaaaaacbaaacaa
+bacbbcaabcccaabbabcb
+1 2
+bcccabcbaacbbbccbbbcccbba
+abbacccbccabcacccaabbcbccaaab
+ababacbacbbcabbaababacb
+3 3
+ababcbabb
+cccacaacbbaaccaa
+cba
+cbcaaabcaaccaacbacac
+acabccbacaaba
+cabcbbcacca
+1 2
+aacbbaacacabacacbccbbbb
+c
+abaaababacbbccaaabacaacbbccccc
+1 2
+cccb
+cbaaabbaccbbbcbacccacaba
+cbbbcbabc
+1 3
+babbabbcbca
+ccbcbbabbcb
+caacbcacaacbcaaaabcabaacbaba
+abab
+3 1
+bbcabacacccccaa
+baabaaabcbaaaacbbcaacaaaabacb
+aabababccababaabcbbcbacabcbb
+aaaabbccaccbacababbcaaccbaabba
+2 3
+aba
+acb
+baaacbaacbcccaaabaacacc
+aa
+bccb
+2 3
+acaccbbcbbc
+cabcbccccaaacc
+a
+cababbabaaabababaaaaacaba
+bacaacaccbbbccbaabcbcac
+2 3
+cbcc
+accbaaababbbccbabcabbbcbbb
+ababccbbbaccaacacbbacb
+bcacabaccbabbbaacaccbabccabba
+cccabbccbcbbbccbcccccc
+2 3
+cbcaaacabcbaccccaaabcabbaccb
+acccbaaccbb
+aac
+ccbbaaabbcbbb
+ba
+1 1
+ab
+abc
+1 2
+ccbcabcbab
+acbbbacccabcaaccbacb
+cbcbabcba
+1 3
+bbacbbccbccbacaaccccca
+cbcac
+caaabcacccbcccab
+cabbbbaaaccac
+1 2
+bcaacacaaccacbbacaacabbccaaa
+abcacacaaabbac
+cbbbccbcacaaaaabbbcbaaccbaac
+3 2
+caacaaacacbbcbaacbccbcca
+ccbcccbccca
+ccbcbababcabca
+caababbab
+cbaccbbcbcccacbababbaacbc
+1 3
+bbccabb
+abbbbcac
+cabcccaacaccccabcacbabb
+acacacbbaabbbcbaaaaa
+1 1
+bc
+acaacaabcbcabbcabaaabaab
+2 2
+babababbcbababbacaaa
+bcacbccbbaabbbabc
+bcaccb
+cacbbbabbaacacbaaacca
+3 3
+cacccacb
+bcbcbabaabcb
+cbabaacacabcabaacc
+bb
+ccaaacccccbcacabaa
+cababccbbaabaabbabba
+1 3
+cccaabaacabaac
+accaacbccccbaabbcb
+aacaacabbac
+bcbcaabacb
+3 3
+babaacaabbcbcabccaccbcb
+aabc
+bbacab
+cbababacbccbacbccaa
+b
+caabbcbcababaacbacbabcc
+3 3
+bcbabbbbacaccacccba
+cb
+aacbbabbcbccacbbcbbcaacbcaba
+abbcbaabcacbabbcbaccbcbcbaccba
+cabbbccbccaaccbcbbcbabaacaa
+caabbbaaaabaacacbc
+1 3
+ccabbbbbaaaccaccbcabcccbab
+bcaababacccbbabbacbcbbcabcccc
+cbaccabaabbaaabcbcbbbaacab
+abccababaacccbaababacabbaab
+1 1
+bbabbabcbaa
+b
+1 1
+acbacbbaabbbbbabcbcccbaca
+ba
+3 1
+bbc
+abbbcbbba
+b
+c
+3 3
+ab
+abbbabc
+bcbbcbacccabbbccbacba
+bccaaaccaaacbaabcbbaab
+aabbaccabcacabbaccbcbbabb
+cc
+1 3
+cbcaababcccaabacbca
+cbba
+abacabcbbccccaaaaabbbabab
+baacaaabbbaacbbccbacbacbaa
+1 1
+cababcaaabb
+bbabcaccaccbbacabacbbacaca
+1 1
+aabaabbbcaabbcbbaab
+cccbacccacabaccaabcabababcbbb
+3 3
+bcbcaccbbcaaccaccbccbcabcabacb
+acb
+cb
+bcccacbbcbacbbcbaccbcaacacac
+bacbabcaaaacbaabaabccaacbcb
+baacbcb
+2 3
+ababbccccbaacac
+baaaaababccabcbcbbac
+abbbcbabcaccabababbcbca
+aacc
+bacacbab
+3 2
+bbaacccccabababcbc
+cacabcabaccabbbcabbacbacab
+acacbcbaabbcbabcacbc
+abbcabcbcbcaabbcacabacccbccb
+bcaabccaabcbaa
+3 3
+bababbabcabbb
+bcbcbbbbaabcccababcbcb
+acaaccacbabbaacbaaaaacbcbabc
+cbaabccbccaabcabccc
+aababab
+cbaacabbabcaaabcab
+1 3
+aacbacacabbcbccbaaccbcabbbbba
+accabcabbaababbaa
+acaacbcbcaabaa
+abbabacabb
+3 2
+bcccbbaccbaacbcacbcacaccb
+aaacaccabbcabcbccbbacccccb
+cac
+b
+bbcabcbac
+3 3
+aaca
+a
+aabababcacbcbaaaacbba
+aabcaccb
+acb
+acbbacccbcacccababcaac
+2 3
+aabaacabac
+accbabcaacab
+babaaaa
+bccccababaa
+bcbaccbccccbaabacaabca
+2 3
+cabcbcbcabccccaaaaababbc
+abccbbacbcaababaabcc
+aaccc
+abacc
+bcbbaaccbaaacbabcbacbabcbaaacc
+3 1
+bccaaaaabbcbcbcccacbbcabba
+bbaaccacbbabbaaccccba
+bcab
+bacacaccacabbababb
+1 3
+cacbcbaaabcccacb
+cbbaccbabbabcabaaaacaaa
+aaa
+cbcabaabccccacba
+3 2
+cabaaa
+ccaba
+bacccbccbaacbab
+aacaaaabbaabacbbcaaccccccac
+aabbbbbbbcaabbbbaacaaacbccbcc
+2 3
+abbabcacbcabbbaabcbcacababacc
+bbb
+bcaccccaabbb
+aacabbcacabcabacabacbb
+aaabcc
+3 3
+baaacccabbbaccccaca
+ccccaabacababb
+bbbaacbbabbcababaaabaaababa
+ac
+bbbbccabccaccbaaabbcbccaabbb
+aacccbcbcabbabbcbcccbcb
+1 2
+cbaccabbcaaccbbbbcbabaacbbcbc
+abbbabbcababcccbcbaaacbabcbbb
+bcacabacbbbccacabcbbcbacca
+2 2
+bbaacccba
+caab
+aabaaababbbcb
+cbabcbbcbccaacacaaacbbcacac
+2 3
+acabbbbccbaabcb
+bccbcca
+bbabcbaacb
+accacabccabcbbbabcbbabcc
+bcbb
+2 1
+cbabaacbacbaacccbcaccabaacac
+cccbbacbabca
+bbcabbacbcaaabbaaabbcacbc
+3 1
+bc
+acbcbcbccba
+ccabcacabcabacabcaaaacacabb
+acbcacbaabbbbbabbbabcbcaccc
+2 3
+cb
+cccbbbbbabcacaba
+baaacbacccb
+cbacbbaababccbaaaacbbabb
+bbbcaccbcbabbac
+3 1
+ccbabcabbcbcbb
+aaacacacbcbccbababacccccbbbb
+ccbccacbbcabbcaa
+cbcab
+3 1
+acbcbbbaacb
+accaaabccccbbaacbbbcbbcacb
+cbcc
+abbababaabccbacaaaacbcc
+1 3
+acbbbbc
+aabbacabca
+cacbccbbbcacaaaccaccaaccbba
+cacbca
+2 3
+bccacabbcbccabbaaaa
+accaccacabacaaaabbaabca
+accbcacaabccbcccbc
+cbaccbaaacaaaccbcabbaaabcab
+bcbbabccbcabcabaabbacacaccc
+1 2
+abccbccbcccacbab
+bccabcbbcabbbccacbcccbc
+acbcaabbababac
+3 2
+bbbbabbbbcacacabbbc
+ccccabababccabcb
+acaaaabcaaacabc
+bbbacabacbbbbabc
+baabcbc
+1 3
+acabab
+accbabbbabbacccbbaa
+babbbaaaa
+abbaacbbacccabbaacacaccbab
+2 3
+abaacbbcbaabbbacca
+bbccaabacbb
+bcccc
+aabbacaccabab
+bccaaaacacabacbaacaacbacababbc
+2 1
+cbbbacaccaabbccbacbbccc
+cccaaccaaacbaaaaaccabbbbbcaac
+bbbbbcbbcacbbba
+3 1
+abcccccbbbcbbaab
+caacb
+cccabcccbbc
+abacbcbcbbacbaabacaacabaa
+3 2
+ccabbaaacccbbaabaabcca
+caaabba
+baccbcaca
+bbcacbbccacbaccbaa
+aabaababcc
+3 2
+acacbbabaacaacbabca
+b
+bccbacaaccaab
+abaababbaabccabbbcbbccaaaacac
+cabcbbacccacb
+2 2
+abc
+caacbcaab
+cab
+cacbacabc
+2 3
+aaabcbabcabcccaacbbac
+cabcaaababcaccccccaacaacabbc
+bbbcaacbacbbccbcbacabcacac
+bcaaabccacabbaaa
+cccaab
+1 3
+abbcbbcabcacbcbccaabbaaccaabc
+aaacbcbacaaacbabb
+ccbaacbaabcaabbaacabaaaaa
+abcbbbaacb
+1 1
+bbccbbaacbbccabcbcca
+c
+3 2
+acbabaacacca
+acacaaaabaacbcbabcbabcbababa
+bbabbbccbabaa
+cacabcbaabbacacaabb
+aaa
+3 3
+bcabcbccbbccbbb
+ccbccacabbaacaca
+acccbcaacacbcaab
+acacccccccacabacbccbbaababbbcb
+c
+bacaacacaaababababcbaabcc
+3 3
+abbcccabbacbbabacccccbcbab
+bccaccbccbab
+bbcaaaa
+caccccaaabccbaaabc
+bacbcbacbbabbbbaaacbcabcb
+ccbaa
+2 1
+aabaabc
+acaaaacbaacaacbccccbccbaa
+c
+3 3
+babbbabaccabacbccbacabba
+cbbcba
+bccbbacaaaaccbbcaccaaabbcaccb
+aabac
+ccbccbccabbbbccbcbaab
+cacbbbcbbcacccbccbababa
+2 3
+abccabbccaaaacbcb
+cabaaccabccbbcaacacbabbbbaabcb
+ccaaaccbbcaaabba
+caaabbcabacbabaabbababaacbaa
+bbcbbbabb
+1 3
+aabbaaa
+abbbaccbacacbcacaabaacaabcccac
+acababbbcbbcbccaaacaacccbcbac
+cbbaabbbcaa
+3 2
+aabaabaccabaaabca
+bbbacbcbbaccbbbaccacbca
+caabaca
+acbbaa
+aaba
+2 1
+accabbaaaccbcba
+bbabccccaabccabc
+babcacacbccbbaacacbccaacc
+3 2
+b
+cbbcbcaabaaaa
+bcabacaabbb
+abbbbacbabab
+b
+2 2
+abbbbacbacaccac
+aababbcbba
+acaaacbbabbbcbccbcccacbaacacca
+caccabaaccc
+2 2
+acccbbbcbbcbac
+accbcbbcaa
+bccacacc
+abcacbaabc
+3 1
+abcccbcaa
+abbcbbaa
+ccccbccc
+abcbabbcaaabcaabaccbacba
+2 3
+bccaabaccbbcaaaaccbcc
+cacaabacc
+ab
+acbccabbbcacb
+bbbcacbaaabc
+1 1
+aabcabbcbaababbababcabab
+baacacaabcbab
+1 1
+cbaccabcaacbacaabbbaac
+bcbaababcbccbcabca
+2 2
+aaabbbbacb
+baaaabb
+cbcacbbcccaacabcaabac
+bbbbccabbacbbacaacabbacca
+2 1
+abababbca
+aacbacabaa
+bbccacab
+2 3
+c
+a
+aacabaccccabbabbacabccccccacab
+acaab
+aabaaaccbacacbaba
+2 2
+bcacccababaaaa
+babacbccababc
+babbbbbbccaccbaabbb
+ccbcbcbaabaacccaba
+3 2
+aabaaccbba
+cbcccbbbaaccbaaabbc
+babbcbbbccbccabbcbacbacabc
+ccccacba
+ccabccbbbbcacbbbbbccccabba
+3 2
+ccbbc
+bbaabbabca
+abbbabcbbcbcbcbbccbccac
+b
+abbbacabababacbbcabbcabbbac
+3 3
+abcbcabcbacacccaabbcbaabcb
+baccaba
+aaa
+cbcaacabacacbaacbcc
+cccbaaabbcbaabbbbccbcacabac
+accabbcccabbcacabbcaacacaccbcc
+1 3
+acccaacacbbccacbccbcabacaccccb
+cbcccbbcbbbaabaababbb
+c
+bbbbbabbbca
+1 3
+caccbccababccacaccabcbccab
+bbabaaaccacaaabcccccab
+baccbbababcbbaaccbb
+bccacbcccbabcba
+3 2
+bcaacccbcacbcaaaac
+acbcabaabababbbaaaacccbcbc
+cbcbbcaba
+ccacabcccaaabca
+cccc
+2 3
+ababacccccbbbaac
+acacbb
+bcccabcacaaabccacccbacaabaaaca
+acccacccbacab
+ccacbbabaaa
+3 2
+aa
+bbbbbbcccabacbcbaabc
+a
+ccacbacaccccbabccbbababcabbac
+c
+2 2
+bac
+ababcbcccbbbbcac
+cababccaabbbbcbacaaba
+accaacabcacbabba
+3 3
+bcabaccacccbccbbbcacca
+bcaabab
+bacbbcbbcabbcbabbccacabbcbccc
+abbacccaccbbcbacbbcaccbabc
+abbcba
+ccaabaacccbaccbcbcbcaacbbaca
+1 3
+cbcacbacaacbaabbabacab
+aacaaccbcbbabacaacbca
+bcccbbacbbabcbbaccbccac
+babaccca
+1 3
+caabcabbccbabccbacbcaca
+bcb
+acacaaaacabcaa
+bcaaabbccbacbbbcbbaabbbcab
+2 3
+caacccbaaaacaabbbaaacac
+aaa
+bc
+bcabaacaacbcbccc
+cacabcccaabbcccccacbbab
+1 1
+bbbba
+ab
+2 3
+cbaaacbacbbbbbccacbbbaaac
+bccbccaacabbbbaccbbcccbabbb
+babaabcaacc
+aaccbcccacbacbaa
+c
+3 2
+abcbabbbcab
+bcbbbcbcccacb
+cccbaaaacbcbaccbabcccbabaa
+caabccaacbcabacabc
+cabcabaaab
+3 3
+ccaccbcacbaabbacaaba
+cabaabbabcabbaaaabcbcccbc
+b
+babbaacbcabbbcccabcacbccbcccc
+abbcacccbcbaaccbcccbbcaaabcca
+bbbb
+3 1
+baccbabcaababc
+bbabbcccbcb
+baaacb
+babaacccaabcaacbccc
+3 1
+baacbacacacabbcbbbccabcbbcaaca
+abbaabbabbccaccaacca
+acaacabbbccaabacccb
+cbbbbbcaaaccacaccbb
+2 2
+bbbbbaaccbbccbaccccbaa
+ccbbbbabcaabbbaaabcabab
+cbbbbbaabc
+aaacbbac
+2 3
+acabcbcaccacabccabbcccaacaaacb
+cbabbbcccbbcccab
+bb
+babbabcabbabcaacc
+ccbacabacccaaaacab
+1 2
+cb
+baccbababcabacbbacbbcaaab
+accccbccbcac
+2 2
+bcbcacaaaaababbbccbb
+cabbababccbbbababaccabacacc
+aaaabccbacbaacbbabaaca
+abaccaaabbbcaabbcc
+2 2
+cbbabcbbabcbcab
+aaabbcbacbbbabaaaabccaaac
+cbaaabcbcbabccaacacabaaccaaa
+abbbbcccbacbbaacb
+3 1
+cbcccaaac
+bccbbbcbbbcbbabb
+caaaab
+aabcbacaa
+2 1
+caaaccbccababcacabacb
+b
+abbbbacbbcbbcbabbcc
+1 2
+abcbcabcccc
+acbcbcccaccbbbccacabbaabaca
+cccccacbbcabcaabcaaacabba
+3 3
+bacccabababcba
+a
+acbaccaccbbababccbcbaaaa
+cccbabbcacc
+abacabbbabbcaccbaa
+acababaccbcac
+2 1
+cb
+c
+cc
+3 2
+baaccbb
+bbbcaabcaacaaacbbccc
+a
+aaac
+bbaaabcbcbabbabcb
+2 1
+ccbbbaabbcabcbcbbacacacbacbcc
+bbccaacbcaaabba
+cbbcbbcbabacaabbbcacacbaccbba
+2 3
+abcbcbabccccaabababc
+baca
+caaaccacacabbabaccbbcbcbacca
+acbcaabaabcacbbbccbccacaaab
+bccccacabb
+3 1
+bbc
+bbbbbbacacabaacccbaaa
+cbbcbcabbcaa
+ccbccbcababaacbaaac
+1 2
+aabcacaba
+bbcaaabbaa
+cca
+1 3
+ccbcbabaaaacbbabbaa
+bcbcabbbacbabbcabbbacccaaacbb
+aacbcaaaacacc
+acbaacaacabb
+3 1
+acbcccabbccbc
+bbb
+cacacaaacaa
+babaaccaacabab
+3 2
+acccbcbccacbacbbaababccb
+ccaca
+cacccabccbcbcccb
+aabbaabbaacbaabcbbbbaaac
+bcaaabcc
+3 2
+aaacbbbacabbaaabc
+ccbcababac
+aacaababbacbcaccb
+a
+acbcaaacbcbccaababa
+1 3
+bcbacaaabcab
+bbccaaaab
+bb
+cabcbcbccaabb
+1 2
+bccabbbabaabbabbccaab
+baaabcabacacacbbcabacabacbaac
+caacbcccacbacbacaaccacacaab
+2 1
+ac
+cabbcccbcabb
+baabccaabccacbabbaabacaabac
+1 2
+bbaaaacaaaaabaabbcaacabac
+ccabccabcbbcccbaacaabb
+bcababbcbbaabcbcaccacc
+2 3
+aabaabccbcbaabcbbcbbbccccabaca
+aacabaaaccccabb
+cbabaaacbaabaaaababa
+baabaacbabbbacbaabbb
+ccabaccccbbacabaaaacbcccb
+2 3
+aabcccbaabaaacbccbbbabbb
+bcbbaacccbbcaccbccaacccabab
+bccababccbbb
+bba
+bcbccbbbbb
+3 1
+aac
+cbcbaabcaaabcbbcbcccaacbbbcb
+cccbcabccbcabcbcaabcacbcba
+accccbcaaaababbababaaa
+2 3
+bb
+cbbbabcbbbba
+ab
+bccaabcbbacabbbbaaabcccbbb
+ccbbababbcaabca
+2 1
+bbbbbacaccbcbacbacbbac
+ccbbbcacbbc
+ccccbcbcbbbcabb
+3 3
+ac
+ccaaccaaaabbba
+c
+aabbcabbbaaabbcab
+abcbcbcacbbbaccbabbcababbbabca
+ab
+3 1
+ab
+abacabccbbcacbacbabbbb
+cacbbaa
+bbabacbacc
+3 3
+ccaccbbbcabccaaaacbbbb
+cb
+bccabbabbcacaac
+bcabcbbbcaaba
+bcabcbaccccacaccaa
+bc
+2 1
+cbbaabbcbcb
+babcacbcb
+c
+2 3
+bcbabaccbacbbbcbbcbbcbaccbbca
+acbccabcccccbbaaaaba
+abcacbbb
+babacaab
+baaabcb
+1 2
+aaacabcababcbabcca
+bccccccbbbaacbcbcbbacbaacaba
+abbcba
+2 3
+bbba
+abab
+bcbbcaabababaacccbbbccbaa
+ccbaaaaacaaccbbca
+babbbccacabacbcbcbcabbbc
+2 3
+c
+acabaabcbbb
+aabbcacacbcccaaabcccc
+bcaacabbccbbbacbbcaab
+bbaabaababbccacabcaabb
+3 3
+ccacbbccaaccabbcbcbabbaaac
+b
+caacbcaccaaacaabcaacbb
+bcbbccacbbc
+caccaccaababab
+aaabbcbcbbbcaaccacccc
+2 1
+abaabababaccbbabaabcbbaccbcc
+aaacabbba
+abb
+1 2
+bacbbabcaaba
+cccccba
+acaccaccabaacccaaca
+3 1
+cbbbacabccbabbbcacccaccabac
+bacbbcaacaccababacbbbb
+cbbccbbaacaccccccbccbacbbb
+bbbcababaaabbacbcc
