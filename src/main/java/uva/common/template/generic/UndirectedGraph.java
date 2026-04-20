@@ -7,17 +7,16 @@ import java.util.Map;
 import java.util.Set;
 
 @SuppressWarnings("unused")
-final public class UndirectedGraph<V> {
+final class UndirectedGraph<V> {
     public final Map<V, Set<V>> edges = new HashMap<>();
 
     public void add(final V vertex1, final V vertex2) {
-        addUni(vertex1, vertex2);
-        addUni(vertex2, vertex1);
+        addDirected(vertex1, vertex2);
+        addDirected(vertex2, vertex1);
     }
 
-    private void addUni(final V fromVertex, final V intoVertex) {
+    private void addDirected(final V fromVertex, final V intoVertex) {
         edges.computeIfAbsent(fromVertex, k -> new HashSet<>()).add(intoVertex);
-        edges.computeIfAbsent(intoVertex, k -> new HashSet<>());
     }
 
     public Set<V> get() {
