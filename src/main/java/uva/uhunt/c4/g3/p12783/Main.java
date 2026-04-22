@@ -27,7 +27,7 @@ public class Main {
 
         while (true) {
             final Input input = new Input();
-            input.totalPolices = in.nextInt();
+            input.totalCriminals = in.nextInt();
             input.totalCommunications = in.nextInt();
             if (input.isEOF()) break;
             input.communications = new int[input.totalCommunications][2];
@@ -39,9 +39,9 @@ public class Main {
             final Output output = process.process(input);
             out.print(output.totalWeakLinks);
             for (final int[] weakLink : output.weakLinks) {
-                for (final int police : weakLink) {
+                for (final int criminal : weakLink) {
                     out.print(' ');
-                    out.print(police);
+                    out.print(criminal);
                 }
             }
             out.println();
@@ -54,12 +54,12 @@ public class Main {
 }
 
 class Input {
-    public int totalPolices;
+    public int totalCriminals;
     public int totalCommunications;
     public int[][] communications;
 
     public boolean isEOF() {
-        return totalPolices == 0 && totalCommunications == 0;
+        return totalCriminals == 0 && totalCommunications == 0;
     }
 }
 
