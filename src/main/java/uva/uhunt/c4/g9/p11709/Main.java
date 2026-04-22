@@ -7,7 +7,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -16,6 +15,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -78,8 +78,15 @@ class Process {
         final List<String> vertices = Arrays.stream(input.peoples).collect(Collectors.toList());
         final List<List<String>> edges = Arrays.stream(input.trusts).map(Arrays::asList).collect(Collectors.toList());
 
-        final KosarajuAlgorithm<String> kosarajuAlgorithm = new KosarajuAlgorithm<>(vertices, edges);
-        final List<List<String>> stronglyConnectedComponents = kosarajuAlgorithm.getStronglyConnectedComponents();
+        final DirectedGraph<String, List<String>> graph = new DirectedGraph<>();
+        for (final List<String> edge : edges) {
+            final String fromVertex = edge.get(0);
+            final String intoVertex = edge.get(1);
+            graph.add(fromVertex, intoVertex, edge);
+        }
+
+        final KosarajuAlgorithm<String, List<String>> kosarajuAlgorithm = new KosarajuAlgorithm<>(graph, vertices);
+        final List<List<String>> stronglyConnectedComponents = kosarajuAlgorithm.findStronglyConnectedComponents();
 
         output.totalGroups = stronglyConnectedComponents.size();
 
@@ -87,56 +94,55 @@ class Process {
     }
 }
 
-class KosarajuAlgorithm<V> {
-    private final DirectedGraph<V> graph;
-    private final DirectedGraph<V> transposeGraph;
-    private final List<List<V>> stronglyConnectedComponents;
+final class KosarajuAlgorithm<V, E> {
+    private final DirectedGraph<V, E> graph;
+    private final DirectedGraph<V, E> transposeGraph;
+    private final List<V> vertices;
 
-    public KosarajuAlgorithm(final List<V> vertices, final List<List<V>> edges) {
-        this.graph = createGraph(vertices, edges);
-        this.transposeGraph = createGraph(vertices, transpose(edges));
-        this.stronglyConnectedComponents = findStronglyConnectedComponents();
+    public KosarajuAlgorithm(final DirectedGraph<V, E> graph, final List<V> vertices) {
+        this.graph = graph;
+        this.transposeGraph = transposeGraph(graph);
+        this.vertices = vertices;
     }
 
-    private List<List<V>> transpose(final List<List<V>> edges) {
-        return edges.stream()
-            .map(edge -> Arrays.asList(edge.get(1), edge.get(0)))
-            .collect(Collectors.toList());
-    }
-
-    private DirectedGraph<V> createGraph(final List<V> vertices, List<List<V>> edges) {
-        final DirectedGraph<V> graph = new DirectedGraph<>(vertices);
-        for (final List<V> edge : edges) {
-            graph.add(edge.get(0), edge.get(1));
+    private DirectedGraph<V, E> transposeGraph(final DirectedGraph<V, E> graph) {
+        final DirectedGraph<V, E> transpose = new DirectedGraph<>();
+        for (final V fromVertex : graph.get()) {
+            for (final V intoVertex : graph.get(fromVertex)) {
+                final E edge = graph.get(fromVertex, intoVertex).orElseThrow(NullPointerException::new);
+                transpose.add(intoVertex, fromVertex, edge);
+            }
         }
-        return graph;
+
+        return transpose;
     }
 
-    private List<List<V>> findStronglyConnectedComponents() {
+    public List<List<V>> findStronglyConnectedComponents() {
         final Set<V> visited = new HashSet<>();
         final LinkedList<V> sequence = new LinkedList<>();
 
-        for (final V vertex : graph.get()) {
+        for (final V vertex : vertices) {
             if (visited.contains(vertex)) continue;
-            dfs(graph, vertex, visited, sequence);
+
+            depthFirstSearch(graph, vertex, visited, sequence);
         }
 
-        final List<List<V>> listSCC = new LinkedList<>();
+        final List<List<V>> stronglyConnectedComponents = new LinkedList<>();
         visited.clear();
         for (final Iterator<V> it = sequence.descendingIterator(); it.hasNext(); ) {
             final V vertex = it.next();
             if (visited.contains(vertex)) continue;
 
-            final LinkedList<V> scc = new LinkedList<>();
-            dfs(transposeGraph, vertex, visited, scc);
-            listSCC.add(new ArrayList<>(scc));
+            final LinkedList<V> stronglyConnectedComponent = new LinkedList<>();
+            depthFirstSearch(transposeGraph, vertex, visited, stronglyConnectedComponent);
+            stronglyConnectedComponents.add(stronglyConnectedComponent);
         }
 
-        return new ArrayList<>(listSCC);
+        return stronglyConnectedComponents;
     }
 
-    private void dfs(
-        final DirectedGraph<V> graph,
+    private void depthFirstSearch(
+        final DirectedGraph<V, E> graph,
         final V vertex,
         final Set<V> visited,
         final LinkedList<V> sequence
@@ -144,35 +150,38 @@ class KosarajuAlgorithm<V> {
         if (visited.contains(vertex)) return;
 
         visited.add(vertex);
-        graph.get(vertex).forEach(nextVertex -> dfs(graph, nextVertex, visited, sequence));
+        for (final V nextVertex : graph.get(vertex)) {
+            depthFirstSearch(graph, nextVertex, visited, sequence);
+        }
         sequence.addLast(vertex);
-    }
-
-    public List<List<V>> getStronglyConnectedComponents() {
-        return stronglyConnectedComponents;
     }
 }
 
-class DirectedGraph<V> {
-    private final Map<V, Set<V>> edges;
+final class DirectedGraph<V, E> {
+    private final Map<V, Map<V, E>> edges = new HashMap<>();
 
-    public DirectedGraph(final List<V> vertices) {
-        edges = new HashMap<>(vertices.size());
-        for (final V vertex : vertices) {
-            edges.putIfAbsent(vertex, new HashSet<>());
-        }
-    }
-
-    public void add(final V from, final V into) {
-        edges.computeIfAbsent(from, k -> new HashSet<>()).add(into);
+    public void add(final V fromVertex, final V intoVertex, final E edge) {
+        edges
+            .computeIfAbsent(fromVertex, k -> new HashMap<>())
+            .put(intoVertex, edge);
     }
 
     public Set<V> get() {
         return edges.keySet();
     }
 
-    public Set<V> get(final V from) {
-        return edges.getOrDefault(from, Collections.emptySet());
+    public Set<V> get(final V vertex) {
+        return edges
+            .getOrDefault(vertex, Collections.emptyMap())
+            .keySet();
+    }
+
+    public Optional<E> get(final V vertex1, final V vertex2) {
+        return Optional.ofNullable(
+            edges
+                .getOrDefault(vertex1, Collections.emptyMap())
+                .get(vertex2)
+        );
     }
 }
 
