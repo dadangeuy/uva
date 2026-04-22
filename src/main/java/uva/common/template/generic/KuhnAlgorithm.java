@@ -9,15 +9,15 @@ import java.util.Map;
 import java.util.Set;
 
 @SuppressWarnings("unused")
-final class KuhnAlgorithm<V> {
+final class KuhnAlgorithm<V, E> {
     private final Map<V, V> matched = new HashMap<>();
     private final Set<V> used = new HashSet<>();
 
-    public List<List<V>> findMaximumBipartiteMatching(final UndirectedGraph<V> graph) {
+    public List<List<V>> findMaximumBipartiteMatching(final UndirectedGraph<V, E> graph) {
         return findMaximumBipartiteMatching(graph, graph.get());
     }
 
-    public List<List<V>> findMaximumBipartiteMatching(final UndirectedGraph<V> graph, final Set<V> vertices) {
+    public List<List<V>> findMaximumBipartiteMatching(final UndirectedGraph<V, E> graph, final Set<V> vertices) {
         matched.clear();
         for (final V vertex : vertices) {
             used.clear();
@@ -32,7 +32,7 @@ final class KuhnAlgorithm<V> {
         return list;
     }
 
-    private boolean depthFirstSearch(final UndirectedGraph<V> graph, final V vertex) {
+    private boolean depthFirstSearch(final UndirectedGraph<V, E> graph, final V vertex) {
         if (used.contains(vertex)) {
             return false;
         }

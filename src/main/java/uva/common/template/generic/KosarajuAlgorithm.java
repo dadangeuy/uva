@@ -13,12 +13,10 @@ import java.util.stream.Collectors;
 class KosarajuAlgorithm<V> {
     private final DirectedGraph<V> graph;
     private final DirectedGraph<V> transposeGraph;
-    private final List<List<V>> stronglyConnectedComponents;
 
     public KosarajuAlgorithm(final List<V> vertices, final List<List<V>> edges) {
         this.graph = createGraph(vertices, edges);
         this.transposeGraph = createGraph(vertices, transpose(edges));
-        this.stronglyConnectedComponents = findStronglyConnectedComponents();
     }
 
     private List<List<V>> transpose(final List<List<V>> edges) {
@@ -32,16 +30,18 @@ class KosarajuAlgorithm<V> {
         for (final List<V> edge : edges) {
             graph.add(edge.get(0), edge.get(1));
         }
+
         return graph;
     }
 
-    private List<List<V>> findStronglyConnectedComponents() {
+    public List<List<V>> findStronglyConnectedComponents() {
         final Set<V> visited = new HashSet<>();
         final LinkedList<V> sequence = new LinkedList<>();
 
         for (final V vertex : graph.get()) {
             if (visited.contains(vertex)) continue;
-            dfs(graph, vertex, visited, sequence);
+
+            depthFirstSearch(graph, vertex, visited, sequence);
         }
 
         final List<List<V>> listSCC = new LinkedList<>();
@@ -51,14 +51,14 @@ class KosarajuAlgorithm<V> {
             if (visited.contains(vertex)) continue;
 
             final LinkedList<V> scc = new LinkedList<>();
-            dfs(transposeGraph, vertex, visited, scc);
+            depthFirstSearch(transposeGraph, vertex, visited, scc);
             listSCC.add(new ArrayList<>(scc));
         }
 
         return new ArrayList<>(listSCC);
     }
 
-    private void dfs(
+    private void depthFirstSearch(
         final DirectedGraph<V> graph,
         final V vertex,
         final Set<V> visited,
@@ -67,11 +67,7 @@ class KosarajuAlgorithm<V> {
         if (visited.contains(vertex)) return;
 
         visited.add(vertex);
-        graph.get(vertex).forEach(nextVertex -> dfs(graph, nextVertex, visited, sequence));
+        graph.get(vertex).forEach(nextVertex -> depthFirstSearch(graph, nextVertex, visited, sequence));
         sequence.addLast(vertex);
-    }
-
-    public List<List<V>> getStronglyConnectedComponents() {
-        return stronglyConnectedComponents;
     }
 }
