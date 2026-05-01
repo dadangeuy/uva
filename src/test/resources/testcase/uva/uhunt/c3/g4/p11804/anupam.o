@@ -1,0 +1,6 @@
+Case 1:
+(a, b, c, d, e)
+(f, g, h, i, j)
+Case 2:
+(a, a, a, a, a)
+(a, a, a, b, z)
