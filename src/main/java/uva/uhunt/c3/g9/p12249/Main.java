@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * 12249 - Overlapping Scenes
  * Time limit: 3.000 seconds
- * https://onlinejudge.org/external/122/12249.pdf
+ * https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3401
  */
 public class Main {
     public static void main(final String... args) {
@@ -67,6 +67,7 @@ class Process {
 
     private String createMovie(final String[] scenes) {
         final StringBuilder movie = new StringBuilder();
+
         for (final String scene : scenes) {
             int commonLength;
             for (commonLength = scene.length(); commonLength >= 0; commonLength--) {
