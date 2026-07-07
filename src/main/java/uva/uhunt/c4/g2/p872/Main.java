@@ -1,141 +1,212 @@
 package uva.uhunt.c4.g2.p872;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.PrintWriter;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
+/**
+ * 872 - Ordering
+ * Time limit: 3.000 seconds
+ * https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=813
+ */
 public class Main {
-    public static void main(String... args) {
-        final Scanner in = new Scanner(new BufferedInputStream(System.in, 2 << 16));
-        final PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out, 2 << 16));
+    public static void main(final String... args) throws IOException {
+        final BufferedIO io = new BufferedIO(System.in, System.out);
+        final Process process = new Process();
 
-        int totalCase = in.nextInt();
-        in.nextLine();
+        final int totalCases = Integer.parseInt(io.readLine());
+        for (int i = 0; i < totalCases; i++) {
+            final Input input = new Input();
+            input.variables = Arrays.asList(io.readLine(" "));
+            input.constraints = Arrays.asList(io.readLine(" "));
 
-        for (int i = 0; i < totalCase; i++) {
-            in.nextLine();
-
-            String[] rawVariables = in.nextLine().split(" ");
-            char[] variables = new char[rawVariables.length];
-            for (int j = 0; j < variables.length; j++) {
-                char variable = rawVariables[j].charAt(0);
-                variables[j] = variable;
-            }
-
-            String[] rawConstraints = in.nextLine().split(" ");
-            char[][] constraints = new char[rawConstraints.length][];
-            for (int j = 0; j < constraints.length; j++) {
-                char[] constraint = new char[]{
-                    rawConstraints[j].charAt(0),
-                    rawConstraints[j].charAt(2)
-                };
-                constraints[j] = constraint;
-            }
-
-            Solution solution = new Solution(variables, constraints);
-            char[][] orderings = solution.getAllOrderings();
-
-            if (orderings.length == 0) out.println("NO");
-            for (char[] ordering : orderings) {
-                for (int j = 0; j < ordering.length - 1; j++) {
-                    out.print(ordering[j]);
-                    out.print(' ');
+            final Output output = process.process(input);
+            if (i > 0) io.write("\n");
+            if (output.orderings.isEmpty()) {
+                io.write("NO\n");
+            } else {
+                for (final List<String> ordering : output.orderings) {
+                    io.write("%s\n", String.join(" ", ordering));
                 }
-                out.println(ordering[ordering.length - 1]);
             }
-            if (i < totalCase - 1) out.println();
         }
 
-        in.close();
-        out.flush();
-        out.close();
+        io.close();
     }
 }
 
-/**
- * 1) use topological sort + DFS to iterate over variable ordering that satisfy constraint
- * 2) we want to retrieve all possible orderings, so we need to keep track of taken variables in each iteration
- * 3) simulate taking free variable before further DFS, then restore the variable
- * <p>
- * Time Complexity: O(300), maximum possible orderings stated on problem description
- */
-class Solution {
-    private final char[] variables;
-    private final char[][] constraints;
+class Input {
+    public List<String> variables;
+    public List<String> constraints;
+}
 
-    // topological sort state
-    private Map<Character, List<Character>> graph;
-    private Map<Character, Integer> inNodes;
-    private LinkedHashSet<Character> ordering;
-    private LinkedList<char[]> orderings;
+class Output {
+    public List<List<String>> orderings;
+}
 
-    public Solution(char[] variables, char[][] constraints) {
-        this.variables = variables;
-        this.constraints = constraints;
+class Process {
+    public Output process(final Input input) {
+        final Output output = new Output();
+
+        final Graph graph = new Graph();
+        final Counts counts = new Counts();
+        for (final String constraint : input.constraints) {
+            final String[] variables = constraint.split("<");
+            graph.add(variables[0], variables[1]);
+            counts.increment(variables[1]);
+        }
+
+        output.orderings = permutationTopologicalSort(input.variables, graph, counts);
+
+        return output;
     }
 
-    public char[][] getAllOrderings() {
-        Arrays.sort(variables);
+    private List<List<String>> permutationTopologicalSort(
+            final List<String> variables,
+            final Graph graph,
+            final Counts counts
+    ) {
+        final Set<String> frees = new TreeSet<>();
+        for (final String variable : variables) {
+            if (counts.isZero(variable)) frees.add(variable);
+        }
 
-        // initialize state
-        graph = buildGraph();
-        inNodes = buildInNodes();
-        ordering = new LinkedHashSet<>();
-        orderings = new LinkedList<>();
+        final List<List<String>> orderings = new LinkedList<>();
+        permutationTopologicalSort(
+                variables,
+                graph,
+                counts,
+                frees,
+                new LinkedList<>(),
+                orderings
+        );
 
-        topologicalSort();
-
-        return orderings.toArray(new char[0][]);
+        return orderings;
     }
 
-    private Map<Character, List<Character>> buildGraph() {
-        Map<Character, List<Character>> graph = new HashMap<>(2 * variables.length);
-        for (char node : variables) graph.put(node, new LinkedList<>());
-        for (char[] edge : constraints) graph.get(edge[0]).add(edge[1]);
-        return graph;
-    }
-
-    private Map<Character, Integer> buildInNodes() {
-        Map<Character, Integer> inNodes = new HashMap<>(2 * variables.length);
-        for (char node : variables) inNodes.put(node, 0);
-        for (char[] edge : constraints) inNodes.computeIfPresent(edge[1], (k, v) -> v + 1);
-        return inNodes;
-    }
-
-    private void topologicalSort() {
-        boolean complete = ordering.size() == variables.length;
-        if (complete) {
-            orderings.add(toArray(ordering));
+    private void permutationTopologicalSort(
+            final List<String> variables,
+            final Graph graph,
+            final Counts counts,
+            final Set<String> frees,
+            final LinkedList<String> ordering,
+            final List<List<String>> orderings
+    ) {
+        if (variables.size() == ordering.size()) {
+            orderings.add(new ArrayList<>(ordering));
             return;
         }
 
-        for (char node : variables) {
-            boolean free = inNodes.get(node) == 0;
-            if (!free) continue;
-
-            boolean taken = ordering.contains(node);
-            if (taken) continue;
-
-            // take node
-            ordering.add(node);
-            for (char childNode : graph.get(node)) {
-                inNodes.computeIfPresent(childNode, (k, v) -> v - 1);
+        final List<String> listFrees = new ArrayList<>(frees);
+        for (final String variable : listFrees) {
+            // process variable
+            frees.remove(variable);
+            ordering.addLast(variable);
+            final List<String> listNextVariables = new ArrayList<>(graph.get(variable));
+            for (final String nextVariable : listNextVariables) {
+                counts.decrement(nextVariable);
+                if (counts.isZero(nextVariable)) frees.add(nextVariable);
             }
-            topologicalSort();
 
-            // restore node
-            ordering.remove(node);
-            for (char childNode : graph.get(node)) {
-                inNodes.computeIfPresent(childNode, (k, v) -> v + 1);
+            // dfs ordering
+            permutationTopologicalSort(
+                    variables,
+                    graph,
+                    counts,
+                    frees,
+                    ordering,
+                    orderings
+            );
+
+            // rollback variable
+            for (final String nextVariable : listNextVariables) {
+                if (counts.isZero(nextVariable)) frees.remove(nextVariable);
+                counts.increment(nextVariable);
             }
+            ordering.removeLast();
+            frees.add(variable);
         }
     }
+}
 
-    private char[] toArray(Collection<Character> list) {
-        char[] array = new char[list.size()];
-        int i = 0;
-        for (char value : list) array[i++] = value;
-        return array;
+class Graph {
+    private final Map<String, Set<String>> graph = new HashMap<>();
+
+    public void add(final String key, final String value) {
+        graph.computeIfAbsent(key, k -> new HashSet<>()).add(value);
+    }
+
+    public Set<String> get(final String key) {
+        return graph.getOrDefault(key, Collections.emptySet());
+    }
+}
+
+class Counts {
+    private final Map<String, Integer> counts = new HashMap<>();
+
+    public void increment(final String key) {
+        counts.put(key, get(key) + 1);
+    }
+
+    public void decrement(final String key) {
+        counts.put(key, get(key) - 1);
+    }
+
+    public int get(final String key) {
+        return counts.getOrDefault(key, 0);
+    }
+
+    public boolean isZero(final String key) {
+        return get(key) == 0;
+    }
+}
+
+final class BufferedIO {
+    private final BufferedReader in;
+    private final BufferedWriter out;
+
+    public BufferedIO(final InputStream in, final OutputStream out) {
+        this.in = new BufferedReader(new InputStreamReader(in));
+        this.out = new BufferedWriter(new OutputStreamWriter(out));
+    }
+
+    public String[] readLine(final String separator) throws IOException {
+        final String line = readLine();
+        return line == null ? null : line.split(separator);
+    }
+
+    public String readLine() throws IOException {
+        String line = in.readLine();
+        while (line != null && line.isEmpty()) line = in.readLine();
+        return line;
+    }
+
+    public void write(final String format, Object... args) throws IOException {
+        final String string = String.format(format, args);
+        write(string);
+    }
+
+    public void write(final String string) throws IOException {
+        out.write(string);
+    }
+
+    public void close() throws IOException {
+        in.close();
+        out.flush();
+        out.close();
     }
 }
