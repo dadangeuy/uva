@@ -3,8 +3,6 @@ package uva.uhunt.c6.g8.p10018;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -43,48 +41,30 @@ class Output {
 }
 
 class Process {
-    private final Map<Long, Output> outputPerNumber = new HashMap<>();
-
     public Output process(final Input input) {
-        final Output output = getOutput(input.number);
-
-        return output;
-    }
-
-    private Output getOutput(final long number) {
-        if (outputPerNumber.containsKey(number)) {
-            return outputPerNumber.get(number);
+        long totalIterations = 0, number = input.number;
+        while (!isPalindrome(number)) {
+            totalIterations++;
+            number += reverse(number);
         }
 
-        if (isPalindrome(number)) {
-            final Output output = new Output();
-            output.totalIterations = 0;
-            output.palindrome = number;
-            return output;
-        }
-
-        final long reverseNumber = reverse(number);
-        final long sumNumber = number + reverseNumber;
-
-        final Output sumOutput = getOutput(sumNumber);
         final Output output = new Output();
-        output.totalIterations = sumOutput.totalIterations + 1;
-        output.palindrome = sumOutput.palindrome;
+        output.totalIterations = totalIterations;
+        output.palindrome = number;
         return output;
     }
 
     private boolean isPalindrome(final long number) {
-        final String text = Long.toString(number);
-        for (int i = 0, j = text.length() - 1; i < j; i++, j--) {
-            final boolean valid = text.charAt(i) == text.charAt(j);
-            if (!valid) return false;
-        }
-        return true;
+        return number == reverse(number);
     }
 
     private long reverse(final long number) {
         final String text = Long.toString(number);
-        final String reverseText = new StringBuilder(text).reverse().toString();
+        final String reverseText = reverse(text);
         return Long.parseLong(reverseText);
+    }
+
+    private String reverse(final String text) {
+        return new StringBuilder(text).reverse().toString();
     }
 }
